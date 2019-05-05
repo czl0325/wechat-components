@@ -1,0 +1,11 @@
+<!--components/signature/index.wxml-->
+<view class='content'>
+  <canvas class="handWriting" disable-scroll="true" bindtouchstart="uploadScaleStart" bindtouchmove="uploadScaleMove" bindtouchend="uploadScaleEnd" canvas-id="handWriting">
+  </canvas>
+
+  <view class='view-operation'>
+    <button bindtap='retDraw'>清除</button>
+    <button bindtap='saveImage'>保存图片</button>
+  </view>
+
+</view>

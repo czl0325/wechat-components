@@ -1,0 +1,3 @@
+<!--components/circleprogress/index.wxml-->
+<canvas canvas-id="circleprogress" id="circleprogress" class='canvas'>
+</canvas>

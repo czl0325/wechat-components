@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <v-sign class='sign'/>
+  <v-progress class='progress' progress='0.8'/>
+</view>

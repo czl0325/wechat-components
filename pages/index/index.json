@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-sign":"/components/signature/index",
+    "v-progress": "/components/circleprogress/index"
+  }
+}

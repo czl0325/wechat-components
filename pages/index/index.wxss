@@ -1,0 +1,10 @@
+/**index.wxss**/
+.sign {
+  width: 100%;
+  height: 500rpx;
+}
+
+.progress {
+  width: 200px;
+  height: 200px;
+}
