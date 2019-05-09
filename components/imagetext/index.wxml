@@ -1,0 +1,5 @@
+<!--components/imagetext/index.wxml-->
+<view class='item-container' bindtap='onClickItem'>
+  <image src='{{icon}}'/>
+  <text>{{text}}</text>
+</view>

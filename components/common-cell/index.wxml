@@ -1,0 +1,7 @@
+<!--components/tablecell/index.wxml-->
+<view class='item-cell' bindtap='onClickItem'>
+  <image src='{{icon}}' wx:if='{{icon.length>0}}'></image>
+  <text class='title'>{{title}}</text>
+  <text class='detail'>{{detail}}</text>
+  <image src='image/arrow-right.png' class='arrow' wx:if='{{!hideArrow}}'></image>
+</view>

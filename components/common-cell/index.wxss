@@ -1,0 +1,24 @@
+/* components/tablecell/index.wxss */
+
+.item-cell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.item-cell .title {
+  flex-grow: 1;
+}
+
+.item-cell .detail {
+  text-align: right;
+}
+
+.item-cell .arrow {
+  width: 20px;
+  height: 20px;
+}

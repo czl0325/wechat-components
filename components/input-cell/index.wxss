@@ -1,0 +1,28 @@
+/* components/input-cell/index.wxss */
+
+.item-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.item-container .title {
+  flex-grow: 1;
+}
+
+.item-container input {
+  border: 2rpx solid #eee;
+  border-radius: 5rpx;
+  padding: 0 10rpx;
+  width: 200rpx;
+  height: 60%;
+  margin-right: 20rpx;
+}
+
+.unit {
+  text-align: right;
+}
