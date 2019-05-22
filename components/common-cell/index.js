@@ -1,5 +1,8 @@
 // components/tablecell/index.js
 Component({
+  externalClasses: [
+    'icon_class'
+  ],
   /**
    * 组件的属性列表
    */
