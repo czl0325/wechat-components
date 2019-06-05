@@ -2,6 +2,15 @@
 <view class='item-cell' bindtap='onClickItem'>
   <image src='{{icon}}' wx:if='{{icon.length>0}}' class='icon_class'></image>
   <text class='title' style='{{icon.length>0?"margin-left: 20rpx;":"margin-left: 0;"}}'>{{title}}</text>
-  <text class='detail'>{{detail}}</text>
+  <picker wx:if='{{hasPicker}}' value="{{index}}" range="{{pickArray}}">
+    <text class='detail detail_class'>{{pickArray[index]}}</text>
+  </picker>
+  <picker wx:elif='{{datePicker}}' value="{{date}}" mode="date" bindchange='bindDateChange'>
+    <text class='detail detail_class'>{{date}}</text>
+  </picker>
+  <picker wx:elif='{{multiPicker}}' range="{{multiArray}}" mode="multiSelector" bindcolumnchange="bindMultiPickerColumnChange">
+    <text class='detail detail_class'>{{detail}}</text>
+  </picker>
+  <text wx:else class='detail detail_class'>{{detail}}</text>
   <image src='image/arrow-right.png' class='arrow' wx:if='{{!hideArrow}}'></image>
 </view>

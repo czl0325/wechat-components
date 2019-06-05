@@ -6,8 +6,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10rpx 20rpx;
-  box-sizing: border-box;
+  /* padding: 10rpx 20rpx;
+  box-sizing: border-box; */
 }
 
 .item-container .title {
@@ -18,11 +18,12 @@
   border: 2rpx solid #eee;
   border-radius: 5rpx;
   padding: 0 10rpx;
-  width: 200rpx;
+  width: 400rpx;
   height: 60%;
-  margin-right: 20rpx;
+  text-align: right;
 }
 
 .unit {
   text-align: right;
+  margin-left: 20rpx;
 }

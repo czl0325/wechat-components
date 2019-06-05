@@ -23,5 +23,24 @@
 直接引入，回调方法为saveImage(path),path为签名版图片保存路径
 
 
+### 普通cell  （左侧文字+右侧文字）
+
+|properties    |  类型         |    属性 |  默认值|
+|--------------|   -----------|  ------ | -----|
+|icon	|	String	|  	左侧图标 | null|
+|title	|	String	|  	左侧文字 | null|
+|detail	|	String	|  	右侧文字 | null|
+|hideArrow	|	Boolean	|  	是否隐藏向右箭头 | false|
+|itemId	|	String	|  	id | null|
+|hasPicker	|	Boolean	|  	是否为单行picker | false|
+|pickArray	|	Array	|  	用于单行picker的数组 | null|
+|datePicker	|	Boolean	|  	是否为日期picker | false|
+|date	|	String	|  	用于日期pickerview的value | null|
+|multiPicker	|	Boolean	|  	是否为多行picker | false|
+|multiArray	|	Array	|  	多行pickerview的数组 | null|
+|multiIndex	|	Array	|  	多行pickerview的index数组 | null|
+|multiText	|	String	|  	多行pickerview展示的值 | null|
+
+
 
 

@@ -1,6 +1,6 @@
 <!--components/input-cell/index.wxml-->
 <view class='item-container'>
   <text class='title'>{{title}}</text>
-  <input bindinput='onInputChange' confirm-type='done' type='number'></input>
-  <text class='unit'>{{unit}}</text>
+  <input bindinput='onInputChange' confirm-type='done' type='{{type}}' value='{{inputValue}}' disabled='{{disabled}}'></input>
+  <text class='unit' wx:if='{{unit}}'>{{unit}}</text>
 </view>

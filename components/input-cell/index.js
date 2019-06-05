@@ -5,7 +5,10 @@ Component({
    */
   properties: {
     title:String,
-    unit:String
+    unit:String,
+    type:String,
+    inputValue:String,
+    disabled:Boolean
   },
 
   /**
@@ -13,6 +16,15 @@ Component({
    */
   data: {
 
+  },
+
+  attached() {
+    if (!this.properties.type) {
+      this.properties.type = 'text'
+    }
+    if (!this.properties.disabled) {
+      this.properties.disabled = false
+    }
   },
 
   /**

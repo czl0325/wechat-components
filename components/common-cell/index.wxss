@@ -6,19 +6,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 10rpx 20rpx; */
   box-sizing: border-box;
 }
 
 .item-cell .title {
   flex-grow: 1;
+  min-width: 150rpx;
+}
+
+.item-cell picker {
+  min-width: 350rpx;
+  text-align: right;
 }
 
 .item-cell .detail {
   text-align: right;
+  max-width: 70%;
 }
 
 .item-cell .arrow {
-  width: 20px;
-  height: 20px;
+  width: 15rpx;
+  height: 27rpx;
+  margin-left: 10rpx;
 }
