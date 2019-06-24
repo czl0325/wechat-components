@@ -1,7 +1,9 @@
 # wechat-components
 自己写的一些微信小程序的自定义组件，目前完成圆环进度条，手写签名版功能
 
-![](https://github.com/czl0325/wechat-components/blob/master/demo1.gif?raw=true)![](https://github.com/czl0325/wechat-components/blob/master/demo2.png?raw=true)
+<center class="half">
+    <img src="https://github.com/czl0325/wechat-components/blob/master/demo1.gif?raw=true" width="300"/><img src="https://github.com/czl0325/wechat-components/blob/master/demo2.png?raw=true" width="300"/>
+</center>
 
 ### 圆环进度条
 
