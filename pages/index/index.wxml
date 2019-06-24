@@ -2,4 +2,5 @@
 <view class="container">
   <v-sign class='sign'/>
   <v-progress class='progress' progress='0.8'/>
+  <v-polygon class='polygon' polygons='{{polygons}}' texts='{{texts}}'/>
 </view>

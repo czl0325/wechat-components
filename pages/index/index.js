@@ -7,7 +7,9 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    polygons: [0.5, 0.8, 0.3, 0.6, 0.1],
+    texts: ["力量", "敏捷", "智力"]
   },
   //事件处理函数
   bindViewTap: function() {

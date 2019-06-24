@@ -1,7 +1,7 @@
 # wechat-components
 自己写的一些微信小程序的自定义组件，目前完成圆环进度条，手写签名版功能
 
-![](https://github.com/czl0325/wechat-components/blob/master/demo.gif?raw=true)
+![](https://github.com/czl0325/wechat-components/blob/master/demo1.gif?raw=true)![](https://github.com/czl0325/wechat-components/blob/master/demo2.png?raw=true)
 
 ### 圆环进度条
 
@@ -42,5 +42,16 @@
 |multiText	|	String	|  	多行pickerview展示的值 | null|
 
 
+### 能力值雷达图
+
+
+|properties    |  类型         |    属性 |  默认值|
+|--------------|   -----------|  ------ | -----|
+|innerColor	|	String	|  	雷达填充颜色 | #dddddd|
+|lineColor	|	String	|  	线条颜色 | #000000|
+|edgeNumber	|	Number	|  	边缘线数量 | 4|
+|textSize	|	Number	|  	文字所在区域 | 20|
+|polygons	|	Array	|  	能力值数值(0-1) | []|
+|texts	|	Array	|  	显示的文字 | []|
 
 

@@ -18,16 +18,16 @@ Component({
       type: Boolean,
       value: false
     },
+    pickArray: Array,
     datePicker: {
       type: Boolean,
       value: false
     },
+    date: String,
     multiPicker: {
       type: Boolean,
       value: false
     },
-    date:String,
-    pickArray:Array,
     multiText:String,
     multiArray:Array,
     multiIndex:Array
@@ -49,15 +49,20 @@ Component({
         id: this.properties.itemId | 0
       }, {})
     },
-    bindDateChange: function (e) {
+    bindPickerChange(event) {
+      this.triggerEvent('pickerChanged', {
+        value: event.detail.value
+      }, {})
+    },
+    bindDateChange(event) {
       this.triggerEvent('dateChanged',{
-        date: e.detail.value
+        date: event.detail.value
       },{})
     },
-    bindMultiPickerColumnChange: function(e) {
+    bindMultiPickerColumnChange(event) {
       this.triggerEvent('mutilChanged',{
-        column: e.detail.column,
-        value: e.detail.value
+        column: event.detail.column,
+        value: event.detail.value
       },{}) 
     }
   }

@@ -1,0 +1,2 @@
+<!--components/polygon/index.wxml-->
+<canvas canvas-id='polygon' id='polygon' class='polygon'></canvas>
