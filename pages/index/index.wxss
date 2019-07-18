@@ -14,3 +14,9 @@
   height: 200px;
   margin-top: 20px;
 }
+
+.calibration {
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+}

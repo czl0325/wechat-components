@@ -1,0 +1,6 @@
+/* components/calibration/index.wxss */
+
+.calibration {
+  width: 100%;
+  height: 100%;
+}

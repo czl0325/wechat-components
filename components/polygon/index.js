@@ -124,7 +124,6 @@ Component({
       //写文字
       for (let j = 0; j < this.properties.texts.length; j++) {
         let text = this.properties.texts[j]
-        context.beginPath()
         context.lineTo(center_x, center_y)
         var x = center_x - Math.cos(this.angleToRadian(90 - innerAngle * j)) * (radius + this.properties.textSize / 2)
         var y = center_y - Math.sin(this.angleToRadian(90 - innerAngle * j)) * (radius + this.properties.textSize / 2)

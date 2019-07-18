@@ -1,6 +1,7 @@
 <!--index.wxml-->
 <view class="container">
-  <v-sign class='sign'/>
+  <!-- <v-sign class='sign'/>
   <v-progress class='progress' progress='0.8'/>
-  <v-polygon class='polygon' polygons='{{polygons}}' texts='{{texts}}'/>
+  <v-polygon class='polygon' polygons='{{polygons}}' texts='{{texts}}'/> -->
+  <v-calibration  class='calibration'/>
 </view>

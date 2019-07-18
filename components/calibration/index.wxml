@@ -1,0 +1,3 @@
+<!--components/calibration/index.wxml-->
+<canvas canvas-id="calibration" id="calibration" class='calibration'>
+</canvas>
