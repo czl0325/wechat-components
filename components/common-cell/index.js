@@ -2,6 +2,7 @@
 
 Component({
   externalClasses: [
+    'cell_class',
     'icon_class',
     'detail_class'
   ],
@@ -19,6 +20,7 @@ Component({
       value: false
     },
     pickArray: Array,
+    range_key: String,
     datePicker: {
       type: Boolean,
       value: false
@@ -46,23 +48,26 @@ Component({
   methods: {
     onClickItem(event) {
       this.triggerEvent('click', {
-        id: this.properties.itemId | 0
+        id: this.properties.itemId || 0
       }, {})
     },
     bindPickerChange(event) {
       this.triggerEvent('pickerChanged', {
-        value: event.detail.value
+        value: event.detail.value,
+        itemId: this.properties.itemId || ""
       }, {})
     },
     bindDateChange(event) {
       this.triggerEvent('dateChanged',{
-        date: event.detail.value
+        date: event.detail.value,
+        itemId: this.properties.itemId || ""
       },{})
     },
     bindMultiPickerColumnChange(event) {
       this.triggerEvent('mutilChanged',{
         column: event.detail.column,
-        value: event.detail.value
+        value: event.detail.value,
+        itemId: this.properties.itemId || ""
       },{}) 
     }
   }

@@ -7,21 +7,29 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  /* padding: 0 20rpx; */
+  background-color: white;
 }
 
 .item-cell .title {
   flex-grow: 1;
-  min-width: 150rpx;
+  width: 0;
+  text-align: left;
 }
 
 .item-cell picker {
+  height: 100%;
+  line-height: 100%;
   min-width: 350rpx;
   text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .item-cell .detail {
   text-align: right;
-  max-width: 70%;
 }
 
 .item-cell .arrow {

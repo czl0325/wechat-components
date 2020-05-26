@@ -1,8 +1,8 @@
 <!--components/tablecell/index.wxml-->
-<view class='item-cell' bindtap='onClickItem'>
+<view class='item-cell cell_class' bindtap='onClickItem'>
   <image src='{{icon}}' wx:if='{{icon.length>0}}' class='icon_class'></image>
   <text class='title' style='{{icon.length>0?"margin-left: 20rpx;":"margin-left: 0;"}}'>{{title}}</text>
-  <picker wx:if='{{hasPicker}}' value="{{index}}" range="{{pickArray}}" bindchange='bindPickerChange'>
+  <picker wx:if='{{hasPicker}}' value="{{index}}" range="{{pickArray}}" range-key="{{range_key}}" bindchange='bindPickerChange'>
     <text class='detail detail_class'>{{detail}}</text>
   </picker>
   <picker wx:elif='{{datePicker}}' value="{{date}}" mode="date" bindchange='bindDateChange'>
