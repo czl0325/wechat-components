@@ -2,7 +2,6 @@
 
 .item-cell {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,8 +11,8 @@
 }
 
 .item-cell .title {
-  flex-grow: 1;
-  width: 0;
+  flex-shrink: 0;
+  min-width: 120rpx;
   text-align: left;
 }
 
@@ -26,10 +25,12 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  flex-grow: 1;
 }
 
 .item-cell .detail {
   text-align: right;
+  flex-grow: 1;
 }
 
 .item-cell .arrow {
