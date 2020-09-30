@@ -1,0 +1,8 @@
+<!--components/bottomSheet/index.wxml-->
+<view wx:if='{{flag}}'>
+  <view class='wrap {{wrapAnimate}}' style='background:rgba(0,0,0,{{bgOpacity}});' catchtap='hideFrame' ></view>
+  <view class='frame-wrapper {{frameAnimate}}' id="body">
+    <slot></slot>
+  </view>
+</view>
+

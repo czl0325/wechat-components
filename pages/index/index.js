@@ -52,5 +52,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+
+  onDialog(event) {
+    let dialog = this.selectComponent("#dialog")
+    dialog.showModal()
   }
 })

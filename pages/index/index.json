@@ -3,6 +3,7 @@
     "v-sign":"/components/signature/index",
     "v-progress": "/components/circleprogress/index",
     "v-polygon": "/components/polygon/index",
-    "v-calibration": "/components/calibration/index"
+    "v-calibration": "/components/calibration/index",
+    "v-dialog": "/pages/dialog/index"
   }
 }

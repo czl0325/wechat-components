@@ -1,0 +1,6 @@
+<!--pages/dialog/index.wxml-->
+<bottomSheet id="bottomSheet" bodyHeight="400rpx">
+  <view class="my">
+    <text>我是组件</text>
+  </view>
+</bottomSheet>

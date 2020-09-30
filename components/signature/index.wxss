@@ -30,7 +30,7 @@
   padding: 0;
 }
 
-.view-operation button {
+.view-operation .btn {
   width: 50%;
   height: 100%;
   padding: 0 !important;

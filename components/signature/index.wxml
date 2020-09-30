@@ -4,8 +4,8 @@
   </canvas>
 
   <view class='view-operation'>
-    <button bindtap='retDraw'>清除</button>
-    <button bindtap='saveImage'>保存图片</button>
+    <button class="btn" bindtap='retDraw'>清除</button>
+    <button class="btn" bindtap='saveImage'>保存图片</button>
   </view>
 
 </view>

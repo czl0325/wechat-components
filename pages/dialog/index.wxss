@@ -1,0 +1,6 @@
+/* pages/dialog/index.wxss */
+
+.my {
+  background-color: royalblue;
+  height: 100%;
+}
